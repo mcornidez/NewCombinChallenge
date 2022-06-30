@@ -1,11 +1,7 @@
 <template>
   <div>
-    <table>
-      <tr>
-        <td>Home</td>
-        <td>Other page</td>
-      </tr>
-    </table>
+    <span>Home</span>
+    <span>Other page</span>
   </div>
 </template>
 
@@ -20,16 +16,13 @@ export default {
 div {
   background-color: #019345;
   border: 1px solid black;
-  overflow: hidden
+  overflow: hidden;
 }
 
-table {
-  width: 100%;
-  table-layout: fixed ;
+span{
+  display: inline-block;
   border: 1px solid black;
-}
-
-td {
-  text-align: center;
+  vertical-align: middle;
+  margin: 0;
 }
 </style>
