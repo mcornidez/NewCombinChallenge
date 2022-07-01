@@ -1,29 +1,27 @@
 # NewCombinChallenge
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Challenge done by Milagros Cornidez for NewCombin
 
 ## Project Setup
-
+In order to install all the dependencies, run the following command
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## API Setup
 
+Before running the project, you need to start the API server.
+In order to do that, run the following commands on a new terminal window
 ```sh
-npm run dev
+cd devskills
+npm install
+npm run serve
 ```
 
-### Compile and Minify for Production
+### Compile and Serve
+Once the API is running, you can run the project
 
 ```sh
-npm run build
+npm run serve
 ```
+

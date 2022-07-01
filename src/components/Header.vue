@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <span>Home</span>
-    <span>Other page</span>
+  <div class="container">
+    <span class="heading">Home</span>
+    <span class="heading">Other page</span>
   </div>
 </template>
 
@@ -13,16 +13,23 @@ export default {
 </script>
 
 <style scoped>
-div {
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #019345;
-  border: 1px solid black;
   overflow: hidden;
+  height: 50px;
+  font-family: Arial,serif;
 }
 
-span{
-  display: inline-block;
-  border: 1px solid black;
-  vertical-align: middle;
-  margin: 0;
+.heading{
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+  height: 95%;
+  font-size: x-large;
+
 }
 </style>

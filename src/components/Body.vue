@@ -1,18 +1,23 @@
 <template>
-  <div>
-    <div>
+  <div class="container">
+    <div class="item">
       <Form/>
     </div>
-    <div>Table</div>
+    <div class="item">
+      <Table/>
+    </div>
   </div>
 </template>
 
 <script>
 import Form from './Form'
+import Table from './Table'
+
 export default {
   name: "Body",
   components: {
     Form,
+    Table
   }
 }
 </script>
@@ -20,22 +25,22 @@ export default {
 <style scoped>
   template{
     background-color: white;
-    height: 80%;
   }
-  div {
+  .container {
     background-color: red;
-    margin: 10px;
+    margin: 35px;
     overflow: hidden;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial,serif;
   }
 
-  table {
+  .item {
     width: 100%;
+    height: 100%;
     background-color: white;
-    margin: 5px;
-    table-layout: fixed ;
-  }
-
-  td {
-    text-align: center;
+    margin: 15px;
+    border: 2px solid black;
   }
 </style>

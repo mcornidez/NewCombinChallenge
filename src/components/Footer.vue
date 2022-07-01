@@ -15,8 +15,10 @@ export default {
 
 div {
   background-color: #0171bd;
-  border: 1px solid black;
-  overflow: hidden
+  border: 2px solid black;
+  overflow: hidden;
+  font-family: Arial,serif;
+
 }
 
 .copyright{

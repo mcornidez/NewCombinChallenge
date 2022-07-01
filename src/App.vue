@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<template>
+<template class="app">
   <Header/>
   <Body/>
   <Footer/>
